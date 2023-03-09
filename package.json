@@ -1,0 +1,22 @@
+{
+  "name": "fundacion",
+  "version": "1.0.0",
+  "description": "paginaweb",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea"
+  },
+  "keywords": [
+    "paginaweb"
+  ],
+  "author": "ShirleySantorum",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.58.0"
+  }
+}
